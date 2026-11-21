@@ -1,25 +1,39 @@
 # Pyc Disassembler
 
-Outil de desassemblage et d'analyse de fichiers bytecode Python (.pyc) dans le terminal (TUI style btop).
+Python bytecode (.pyc) disassembler and analysis tool inside the terminal (btop-style TUI).
+
+---
 
 ## Installation
 
-Lancez `setup.bat` ou manuellement :
+Run `setup.bat` or install dependencies manually:
 ```bash
 pip install -r requirements.txt
 ```
 
-## Lancement
+---
 
-Lancez `run.bat` ou :
+## Usage
+
+Run `run.bat` or:
 ```bash
 python main.py
 ```
 
-## Raccourcis clavier
+---
 
-- `f` : Ouvrir la barre de recherche (Entree: suivant, Echap: fermer)
-- `c` : Copier la selection (ou tout le bytecode) dans le presse-papier Windows
-- `a` : Tout selectionner
-- `s` : Exporter le resultat dans `FilePyc.txt`
-- `q` : Quitter
+## Keyboard Shortcuts
+
+- `f`: Open search bar (Enter: next, Esc: close)
+- `c`: Copy selection (or entire bytecode) to Windows clipboard
+- `a`: Select all
+- `s`: Export output to `FilePyc.txt`
+- `q`: Quit
+
+---
+
+## Contact
+
+- Dev: Lunair
+- Discord: `7vmr`
+- Website: https://lunair.fun
